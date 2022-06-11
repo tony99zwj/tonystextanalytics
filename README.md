@@ -31,6 +31,14 @@ Scraping emails from demo emails, then extracting data with IMAP to create the d
 Processing data and decoding HTML formatted emails, which are the byte messages, with Beautiful Soup to make them readable in our own dataset.
 
 
+GMAIL API Challenges:
+After requesting permission, retrieving tokens and your own client secret code. You can add users to join your project and grant them full access to the project. Unfortunately, I was the only user that was granted permission. GMAIL API allows it users to modify, create, read & delete messages. There are countless of forums but are outdated information to assist. Our main challenge overall was running our code and the tokens displaying errors, when trying to filter spam.
+
+
+Demo:
+To assist in today’s Demo, we will be presenting it using GMAIL API. In This demo, the User is given the ability to load any # of emails that they wish. Our 2nd Demo will be able to provide a # of unread messages they may have and display the very first one. We also implemented Speech Recognition for our last Demo. Jarvis will be listening to the user and displaying the message as a text.
+
+
 Conclusion：
 Although we had some errors with the GMAIL API token and unable to successfully create a filter demo. 
 We were able to work with the internal information calculating the true # of emails that were considered Spam. 
